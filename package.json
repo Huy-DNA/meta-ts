@@ -1,5 +1,5 @@
 {
-  "name": "meta-ts",
+  "name": "@huy-dna/meta-ts",
   "version": "1.0.1",
   "description": "A repo for metaprogramming facility in typescript",
   "main": "./dist/index.js",
