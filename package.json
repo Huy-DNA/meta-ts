@@ -1,6 +1,6 @@
 {
   "name": "meta-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A repo for metaprogramming facility in typescript",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Huy-DNA/meta-ts#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.27.5",
     "typescript": "^5.4.5",
     "vite": "^5.2.12",
     "vite-plugin-dts": "^3.9.1"
