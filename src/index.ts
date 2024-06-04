@@ -1,0 +1,1 @@
+type Dummy = number | boolean;
