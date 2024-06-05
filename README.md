@@ -9,20 +9,20 @@ npm install @huy-dna/meta-ts
 
 ## Usage
 
-The main checker is the two types `checkAll` and `check`:
+The main checker is the two functions `checkAll` and `check`:
 
 ```typescript
 checkAll<[
     Predicate,
     Predicate,
     Predicate,
-]>
+]>()
 ```
 
 and
 
 ```typescript
-check<Predicate>
+check<Predicate>()
 ```
 
 Basically, you can imagine these two as functions that accepts arguments in angle brackets `<>` and do not impose runtime overhead at all, as these will be checked as compile-time only.
