@@ -1,5 +1,11 @@
 # meta-ts
 
+## 2.0.0
+
+### Major Changes
+
+- feat: implement core meta checker
+
 ## 1.0.5
 
 ### Patch Changes

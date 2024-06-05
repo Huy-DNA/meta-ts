@@ -1,6 +1,6 @@
 {
   "name": "@huy-dna/meta-ts",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "A repo for metaprogramming facility in typescript",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
