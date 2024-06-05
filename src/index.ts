@@ -1,1 +1,1 @@
-type Dummy = number | boolean;
+export type Dummy = number | boolean;

@@ -1,5 +1,11 @@
 # meta-ts
 
+## 1.0.4
+
+### Patch Changes
+
+- export dummy type
+
 ## 1.0.3
 
 ### Patch Changes
