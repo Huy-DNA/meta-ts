@@ -1,5 +1,11 @@
 # meta-ts
 
+## 2.1.1
+
+### Patch Changes
+
+- fix: make check and checkAll functions
+
 ## 2.1.0
 
 ### Minor Changes
