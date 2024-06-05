@@ -1,5 +1,11 @@
 # meta-ts
 
+## 1.0.3
+
+### Patch Changes
+
+- chore: point typings to index.d.ts
+
 ## 1.0.2
 
 ### Patch Changes
