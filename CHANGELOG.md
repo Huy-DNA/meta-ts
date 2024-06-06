@@ -1,5 +1,11 @@
 # meta-ts
 
+## 2.2.0
+
+### Minor Changes
+
+- add DoesExtend predicate
+
 ## 2.1.1
 
 ### Patch Changes
