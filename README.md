@@ -84,7 +84,7 @@ enum E2 {
     C = 2,
 }
 
-check<SameNumericalEnums<E1, E2>> // passed!
+check<SameNumericalEnum<E1, E2>> // passed!
 ```
 
 Note that this only works with number-valued enums!

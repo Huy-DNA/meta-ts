@@ -6,4 +6,4 @@ type KeyValueFromEnum<T> = {
 
 // Check that two enum types are identical
 // Remember to pass `typeof EnumObj` not `EnumObj` as type parameters
-export type SameNumericalEnums<T, U> = SameType<KeyValueFromEnum<T>, KeyValueFromEnum<U>>;
+export type SameNumericalEnum<T, U> = SameType<KeyValueFromEnum<T>, KeyValueFromEnum<U>>;
