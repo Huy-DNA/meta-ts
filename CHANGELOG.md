@@ -1,5 +1,11 @@
 # meta-ts
 
+## 2.3.0
+
+### Minor Changes
+
+- add SameNumericalEnums
+
 ## 2.2.0
 
 ### Minor Changes
