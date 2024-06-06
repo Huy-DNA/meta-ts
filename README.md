@@ -1,5 +1,11 @@
 # meta-ts
-A repo containing facilities for metaprogramming in typescript
+A package containing facilities for metaprogramming in typescript
+
+## Contribution
+
+This package is mainly built to tweak with the Typescript's typechecker.
+
+Don't be hesitate to challenge yourself and contribute some "predicate"s to this repo here: https://github.com/Huy-DNA/meta-ts.
 
 ## Installation
 
@@ -40,8 +46,19 @@ This predicate is true if `T` and `S` are the same type.
 Example:
 
 ```typescript
-check<SameType<number, number>> // pass!
+check<SameType<number, number>> // passed!
 check<SameType<number, string>> // failed!
+```
+
+### `DoesExtend<T, S>`
+
+This predicate is true if `T` extends `S`.
+
+Example:
+
+```typescript
+check<DoesExtend<number, string>> // failed!
+check<DoesExtend<3, number>> // passed!
 ```
 
 ## Pitfalls
