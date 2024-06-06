@@ -7,6 +7,10 @@ This package is mainly built to tweak with the Typescript's typechecker.
 
 Don't be hesitate to challenge yourself and contribute some "predicate"s to this repo here: https://github.com/Huy-DNA/meta-ts.
 
+## Bug reports
+
+Post an issues on the package's repo!
+
 ## Installation
 
 ```bash
@@ -60,6 +64,30 @@ Example:
 check<DoesExtend<number, string>> // failed!
 check<DoesExtend<3, number>> // passed!
 ```
+
+### `SameNumericalEnum<T, S>`
+
+This predicate is true if enum `T` and enum `S` have the same keys with the same numerical value.
+
+Example:
+
+```typescript
+enum E1 {
+    A,
+    B,
+    C
+}
+
+enum E2 {
+    A = 0,
+    B,
+    C = 2,
+}
+
+check<SameNumericalEnums<E1, E2>> // passed!
+```
+
+Note that this only works with number-valued enums!
 
 ## Pitfalls
 
