@@ -1,4 +1,7 @@
 # meta-ts
+
+[![npm](https://img.shields.io/npm/v/@huy-dna/meta-ts.svg)](https://www.npmjs.com/package/@huy-dna/meta-ts) [![Download](https://img.shields.io/npm/dm/@huy-dna/meta-ts)](https://www.npmjs.com/package/@huy-dna/meta-ts)
+
 A package containing facilities for metaprogramming in typescript
 
 ## Contribution
