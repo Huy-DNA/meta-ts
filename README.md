@@ -38,11 +38,15 @@ and
 check<Predicate>
 ```
 
-Basically, you can imagine these two as functions that accepts arguments in angle brackets `<>` and do not impose runtime overhead at all, as these will be checked as compile-time only.
+We can think of `check` and `checkAll` as:
+* Compile-time functions - do not cause runtime overhead
+* Arguments can be passed using `<>`.
 
 ## Predicates
 
-From this section on, if a predicate `P` is said to be "true", it means that `check<P>` pass the Typescript typechecker.
+A predicate is an assertion about types.
+
+A predicate `P` is said to be "true" if and only if `check<P>` pass the Typescript typechecker.
 
 Currently, these predicates are supported:
 
