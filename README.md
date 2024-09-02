@@ -4,16 +4,6 @@
 
 A package containing facilities for metaprogramming in typescript
 
-## Contribution
-
-This package is mainly built to tweak with the Typescript's typechecker.
-
-Don't be hesitate to challenge yourself and contribute some "predicate"s to this repo here: https://github.com/Huy-DNA/meta-ts.
-
-## Bug reports
-
-Post an issues on the package's repo!
-
 ## Installation
 
 ```bash
@@ -99,3 +89,13 @@ Note that this only works with number-valued enums!
 ## Pitfalls
 
 * May not work correctly with `any`.
+
+## Contribution
+
+This package is mainly built to tweak with the Typescript's typechecker.
+
+Don't hesitate to challenge yourself and contribute some "predicate"s to this repo here: https://github.com/Huy-DNA/meta-ts.
+
+## Bug reports
+
+Post an issues on the package's repo!
